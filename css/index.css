@@ -1,6 +1,12 @@
-.body {
-/*	background-color: #E2F2C6;*/
+h1 {
+	font-family: "Nixie One";
+}
+
+body {
 	background-color: white;
+	font-family: "Josefin Sans";
+	font-weight: 400;
+	font-size: large;
 }
 .navbar {
 	background-color: #471D5C;
@@ -31,16 +37,16 @@
 	height:500px;
 }
 
-#welcome-div {
-	height:500px;
-	width:100%;
-	padding:0px;
-	margin:0px;
+.jumbotron {
+	margin:0;
+	padding:none;
 	background: url("imgs/bellevue-skyline.jpg") no-repeat center center fixed; 
   	background-size: cover;
  }
 
 #welcome-image {
+	margin:0;
+	padding:none;
 	width:100%;
 	height:100%;
 }
