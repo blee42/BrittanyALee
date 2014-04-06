@@ -35,6 +35,9 @@ a:hover {
 	margin-top:15px;
 	margin-right:50px;
 	background-color: transparent;
+	font-family: "Open Sans";
+	font-weight: 100;
+	font-size: large;
 }
 
 .btn-default, .btn:focus {
