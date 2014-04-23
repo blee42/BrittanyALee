@@ -3,6 +3,10 @@ h1, h2 {
 	text-shadow:1px 1px white;
 }
 
+h4, h5 {
+	color: #471D5C;
+}
+
 body {
 	background-color: white;
 	font-family: "Open Sans";
@@ -21,6 +25,10 @@ a:hover {
 
 .container-fluid {
 	padding:0;
+}
+
+.row {
+	margin: 0px;
 }
 
 .navbar {
@@ -49,8 +57,9 @@ a:hover {
 }
 
 .btn:hover {
-	opacity: 0.5;
-	background-color:#376266;
+	/*opacity: 0.5;
+	background-color:#376266;*/
+	background-color: transparent;
 }
 
 .nav-btnl:hover {
@@ -64,7 +73,7 @@ a:hover {
 .jumbotron {
 	margin:0;
 	padding:0;
-	background: url("../imgs/bellevue-skyline.png"); 
+	background: url("../imgs/bellevue-skyline-sm.jpg"); 
   	background-size: cover;
   	background-position: center center;
  }
@@ -85,45 +94,26 @@ a:hover {
 }
 
 #work-title {
-	color: #376266;
-}
-
-#project-tiles {
-	margin-top:50px;
-	margin-bottom:50px;
-}
-
-#project1 {
-	/*background-color: red;*/
-}
-
-#project2 {
-	/*background-color: blue;*/
-}
-
-#project3 {
-	/*background-color: green;*/
+	color: #471D5C;
 }
 
 .project-content {
 	width:100%;
+	margin:20px 0 0 0;
+}
+
+.img-cont {
 	height:400px;
+	margin:15px 0 15px 0;
 }
 
-.project-img-vert {
+.img {
 	height:100%;
+	opacity: 0.7;
 }
 
-.project-img-hor {
-	display: inline-block;
-	position:relative;
-	vertical-align: middle;
-	width: 100%;
-}
-
-.project-img-sq {
-	height:100%;
-	width:100%;
+.img:hover {
+	opacity: 1;
 }
 
 #contact-div {
