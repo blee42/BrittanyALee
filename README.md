@@ -2,6 +2,6 @@
 
 My personal website seen at [brittanyalee.com](http://www.brittanyalee.com)
 
-Technologies:
+### Technologies:
 * HTML/CSS
 * Bootstrap
