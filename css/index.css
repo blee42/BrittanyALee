@@ -50,17 +50,20 @@ a:hover {
 }
 
 .btn-default, .btn:focus {
+	margin:25px;
+	padding:2px;
 	color:white;
 	background-color: transparent;
 	border:none;
 	border-radius: 0;
+	box-shadow: none;
 }
 
-.btn:hover {
+.btn:hover, .btn:active {
 	/*opacity: 0.5;
 	background-color:#376266;*/
 	background-color: transparent;
-	border-bottom: thick solid white;
+	border-bottom: 2px solid white;
 }
 
 .nav-btnl:hover {
@@ -79,14 +82,25 @@ a:hover {
   	background-position: center center;
  }
 
+ #welcome-div {
+ 	position:relative;
+	height:500px;
+ }
+
 #welcome-title {
-	padding: 300px 100px 75px 100px;
+	position: absolute;
+	bottom:0px;
+	/*padding: 300px 100px 75px 100px;*/
+	padding: 5% 10%;
 	text-shadow:1px 1px white;
 	color:white;
 }
 
 .bar-text {
-	padding: 50px 100px 50px 100px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 #about-div {
