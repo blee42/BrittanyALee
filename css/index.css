@@ -131,6 +131,10 @@ a:hover {
 	opacity: 1;
 }
 
+.visible-link {
+	color: #471D5C;
+}
+
 #contact-div {
 	background-color: #5F655C;
 	color: white;
