@@ -41,17 +41,16 @@ a:hover {
 }
 
 .btn-group {
-	margin-top:15px;
-	margin-right:50px;
 	background-color: transparent;
 	font-family: "Open Sans";
 	font-weight: 100;
 	font-size: large;
+	float:right;
 }
 
 .btn-default, .btn:focus {
-	margin:25px;
 	padding:2px;
+	margin: 10% 25px 25px 25px;
 	color:white;
 	background-color: transparent;
 	border:none;
@@ -68,6 +67,23 @@ a:hover {
 
 .nav-btnl:hover {
 	color:white;
+}
+
+.home-btn {
+	margin-right: 10%;
+	margin-top: 5%;
+}
+
+.home-btn:hover {
+	color:white;
+}
+
+.home-btn-opp {
+	color: #471D5C;
+}
+
+.home-btn-opp:hover {
+	color: #471D5C;
 }
 
 #content-div {
@@ -118,12 +134,12 @@ a:hover {
 }
 
 .img-cont {
-	height:400px;
+	/*height:400px;*/
 	margin:15px 0 15px 0;
 }
 
-.img {
-	height:100%;
+.img, .img-nolink {
+	height:400px;
 	opacity: 0.7;
 }
 
@@ -138,4 +154,16 @@ a:hover {
 #contact-div {
 	background-color: #5F655C;
 	color: white;
+}
+
+@media (max-width: 768px){
+	
+	.email {
+		font-size: small;
+	}
+
+	.img, .img-nolink {
+		width: 100%;
+		height: auto;
+	}
 }
